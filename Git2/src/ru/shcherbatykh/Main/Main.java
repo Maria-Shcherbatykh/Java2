@@ -5,6 +5,9 @@
  */
 package ru.shcherbatykh.Main;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author maria
@@ -12,5 +15,10 @@ package ru.shcherbatykh.Main;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
+        List<String> students = new ArrayList<>();
+        String st = new String("alex");
+        String st2 = new String("dan");
+        students.add(st);
+        students.add(st2);
     }
 }
